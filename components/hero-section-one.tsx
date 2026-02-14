@@ -1,8 +1,10 @@
+"use client"
+
 import React from 'react'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { HeroHeader } from './header'
-import { ChevronRight, CirclePlay } from 'lucide-react'
+import { CaretRight, PlayCircle } from '@phosphor-icons/react'
 import Image from 'next/image'
 
 export default function HeroSectionOne() {
@@ -25,7 +27,7 @@ export default function HeroSectionOne() {
                                             className="pr-4.5">
                                             <Link href="#link">
                                                 <span className="text-nowrap">Get Started</span>
-                                                <ChevronRight className="opacity-50" />
+                                                <CaretRight className="opacity-50" />
                                             </Link>
                                         </Button>
                                         <Button
@@ -35,7 +37,7 @@ export default function HeroSectionOne() {
                                             variant="outline"
                                             className="pl-5">
                                             <Link href="#link">
-                                                <CirclePlay className="fill-primary/25 stroke-primary" />
+                                                <PlayCircle className="fill-primary/25 stroke-primary" />
                                                 <span className="text-nowrap">Watch video</span>
                                             </Link>
                                         </Button>

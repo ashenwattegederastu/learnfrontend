@@ -1,6 +1,7 @@
 
 import ContentSection from "@/components/content-four";
 import FeaturesSection from "@/components/features-three";
+import FooterSection from "@/components/footer";
 import HeroSectionOne from "@/components/hero-section-one";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSectionOne />
       <FeaturesSection />
       <ContentSection />
+      <FooterSection />
     </div>
   );
 }

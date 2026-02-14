@@ -1,4 +1,6 @@
-import { ArrowRight } from 'lucide-react'
+"use client"
+
+import { ArrowRight } from '@phosphor-icons/react'
 import BulbSvg from './ui/bulb-svg'
 import PenIcon from './ui/pen-icon'
 

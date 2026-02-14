@@ -1,7 +1,7 @@
 'use client'
 import { cn } from '@/lib/utils'
 import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
-import { Bold, Calendar1, Ellipsis, Italic, Strikethrough, Underline } from 'lucide-react'
+import { TextB, CalendarBlank, DotsThree, TextItalic, TextStrikethrough, TextUnderline } from '@phosphor-icons/react'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 
@@ -62,7 +62,7 @@ export const ScheduleIllustation = ({ className, variant = 'elevated' }: Illustr
                 <Button
                     size="sm"
                     className="rounded-sm">
-                    <Calendar1 className="size-3" />
+                    <CalendarBlank className="size-3" />
                     <span className="text-sm font-medium">Schedule</span>
                 </Button>
                 <span className="bg-border block h-4 w-px"></span>
@@ -73,22 +73,22 @@ export const ScheduleIllustation = ({ className, variant = 'elevated' }: Illustr
                     <ToggleGroupItem
                         value="bold"
                         aria-label="Toggle bold">
-                        <Bold className="size-4" />
+                        <TextB className="size-4" />
                     </ToggleGroupItem>
                     <ToggleGroupItem
                         value="italic"
                         aria-label="Toggle italic">
-                        <Italic className="size-4" />
+                        <TextItalic className="size-4" />
                     </ToggleGroupItem>
                     <ToggleGroupItem
                         value="underline"
                         aria-label="Toggle underline">
-                        <Underline className="size-4" />
+                        <TextUnderline className="size-4" />
                     </ToggleGroupItem>
                     <ToggleGroupItem
                         value="strikethrough"
                         aria-label="Toggle strikethrough">
-                        <Strikethrough className="size-4" />
+                        <TextStrikethrough className="size-4" />
                     </ToggleGroupItem>
                 </ToggleGroup>
                 <span className="bg-border block h-4 w-px"></span>
@@ -96,7 +96,7 @@ export const ScheduleIllustation = ({ className, variant = 'elevated' }: Illustr
                     size="icon"
                     className="size-8"
                     variant="ghost">
-                    <Ellipsis className="size-3" />
+                    <DotsThree className="size-3" />
                 </Button>
             </div>
             <span>
